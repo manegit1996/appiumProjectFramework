@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite parallel="false" name="Suite">
+	
+  <test name="Test">
+	<parameter name="platformName" value= "iOS"> </parameter>
+	<parameter name="deviceName" value= "iPhone 11"></parameter>
+    <classes>
+			<class name="com.qa.tests.LoginTests" />
+			<class name="com.qa.tests.ProductsTests" />
+			<class name="com.qa.tests.CartTests" />
+			<class name="reports.ExtentReportsDemo" />
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

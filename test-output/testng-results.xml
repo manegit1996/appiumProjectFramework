@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-28T04:50:01 PST" name="Suite" finished-at="2024-01-28T04:52:15 PST" duration-ms="134566">
+    <groups>
+    </groups>
+    <test started-at="2024-01-28T04:50:01 PST" name="Test" finished-at="2024-01-28T04:52:15 PST" duration-ms="134566">
+      <class name="com.qa.tests.CartTests">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:50:01 PST" name="setUpExtentReports" finished-at="2024-01-28T04:50:01 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtentReports -->
+        <test-method signature="clickCart()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:51:29 PST" name="clickCart" finished-at="2024-01-28T04:51:31 PST" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCart -->
+        <test-method signature="clickCheckOut()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:51:31 PST" name="clickCheckOut" finished-at="2024-01-28T04:51:37 PST" duration-ms="5877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckOut -->
+        <test-method signature="enterFirstName()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:51:37 PST" name="enterFirstName" finished-at="2024-01-28T04:51:42 PST" duration-ms="5217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFirstName -->
+        <test-method signature="enterLastName()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:51:42 PST" name="enterLastName" finished-at="2024-01-28T04:51:47 PST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLastName -->
+        <test-method signature="enterPostalCode()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:51:47 PST" name="enterPostalCode" finished-at="2024-01-28T04:51:53 PST" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPostalCode -->
+        <test-method signature="cont()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:51:53 PST" name="cont" finished-at="2024-01-28T04:52:01 PST" depends-on-methods="com.qa.tests.CartTests.enterFirstName, com.qa.tests.CartTests.enterPostalCode, com.qa.tests.CartTests.enterLastName" duration-ms="8348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cont -->
+        <test-method signature="swipingToFinishBtn()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:52:01 PST" name="swipingToFinishBtn" finished-at="2024-01-28T04:52:07 PST" depends-on-methods="com.qa.tests.CartTests.cont" duration-ms="5630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipingToFinishBtn -->
+        <test-method signature="clickOnFinish()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:52:07 PST" name="clickOnFinish" finished-at="2024-01-28T04:52:12 PST" depends-on-methods="com.qa.tests.CartTests.swipingToFinishBtn" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFinish -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.CartTests@379614be]" started-at="2024-01-28T04:52:16 PST" name="tearDownExtentReports" finished-at="2024-01-28T04:52:16 PST" depends-on-methods="com.qa.tests.ProductsTests.tearDownExtentReports, com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- com.qa.tests.CartTests -->
+      <class name="com.qa.tests.LoginTests">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:00 PST" name="reportSetup" finished-at="2024-01-28T04:50:01 PST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:01 PST" name="setUpExtentReports" finished-at="2024-01-28T04:50:01 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtentReports -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:01 PST" name="beforeTest" finished-at="2024-01-28T04:50:12 PST" duration-ms="11827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:12 PST" name="beforeMethod" finished-at="2024-01-28T04:50:14 PST" duration-ms="1550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.invalidUserName() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:14 PST" name="invalidUserName" finished-at="2024-01-28T04:50:38 PST" duration-ms="23739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:38 PST" name="beforeMethod" finished-at="2024-01-28T04:50:38 PST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.invalidPassword() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:38 PST" name="invalidPassword" finished-at="2024-01-28T04:50:58 PST" depends-on-methods="com.qa.tests.LoginTests.invalidUserName" duration-ms="19940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:58 PST" name="beforeMethod" finished-at="2024-01-28T04:50:58 PST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.successfulLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:50:58 PST" name="successfulLogin" finished-at="2024-01-28T04:51:14 PST" depends-on-methods="com.qa.tests.LoginTests.invalidUserName, com.qa.tests.LoginTests.invalidPassword" duration-ms="16041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:52:12 PST" name="afterTest" finished-at="2024-01-28T04:52:15 PST" duration-ms="3046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:52:15 PST" name="tearDownExtentReports" finished-at="2024-01-28T04:52:16 PST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:com.qa.tests.LoginTests@42a15bdc]" started-at="2024-01-28T04:52:16 PST" name="reportTearDown" finished-at="2024-01-28T04:52:16 PST" depends-on-methods="com.qa.tests.CartTests.tearDownExtentReports, com.qa.tests.ProductsTests.tearDownExtentReports, com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- com.qa.tests.LoginTests -->
+      <class name="com.qa.tests.ProductsTests">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.ProductsTests@704deff2]" started-at="2024-01-28T04:50:01 PST" name="setUpExtentReports" finished-at="2024-01-28T04:50:01 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtentReports -->
+        <test-method signature="pressBtn()[pri:0, instance:com.qa.tests.ProductsTests@704deff2]" started-at="2024-01-28T04:51:14 PST" name="pressBtn" finished-at="2024-01-28T04:51:18 PST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressBtn -->
+        <test-method signature="swipe()[pri:0, instance:com.qa.tests.ProductsTests@704deff2]" started-at="2024-01-28T04:51:18 PST" name="swipe" finished-at="2024-01-28T04:51:26 PST" depends-on-methods="com.qa.tests.ProductsTests.pressBtn" duration-ms="7277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipe -->
+        <test-method signature="addCart()[pri:0, instance:com.qa.tests.ProductsTests@704deff2]" started-at="2024-01-28T04:51:26 PST" name="addCart" finished-at="2024-01-28T04:51:29 PST" depends-on-methods="com.qa.tests.ProductsTests.pressBtn, com.qa.tests.ProductsTests.swipe" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.ProductsTests@704deff2]" started-at="2024-01-28T04:52:16 PST" name="tearDownExtentReports" finished-at="2024-01-28T04:52:16 PST" depends-on-methods="com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- com.qa.tests.ProductsTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
