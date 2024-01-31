@@ -14,8 +14,7 @@ This project is designed to enable automated testing of specific funcionalities 
 ## Installation steps and User instructions:
    - Create a new folder somewhere on your machine.
    - Open cmd/terminal and navigate to that folder.
-   - Clone the repository using the following command
-     (copy the path from the GitHub repository, either using https or ssh):
+   - Clone the repository using the following command (copy the path from the GitHub repository, either using https or ssh):
      ```
      git clone [repository_path]
      ```
@@ -40,6 +39,7 @@ npm install -g appium
 ```
 - Install and configure Xcode WebDriverAgent
 
+
 - Run the project:
 Open the project in your IDE
 (folder that You created when clonning the project)
@@ -56,13 +56,14 @@ Check your udid for iPhone 11. Run command
 xcrun simctl
 
 ```
-##Install Application to Your simulator
+## Install Application to Your simulator
 Go to downloads folder, extract the application and just drag it to Your simulator
 
 - Run Maven command to download neccessery tools and dependencies:
 ```
 mvn clean install
 ```
+
 - Run  `testng.xml` in the project to execute the tests
 
 
