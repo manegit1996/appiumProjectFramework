@@ -56,7 +56,7 @@ Check your udid for iPhone 11. Run command
 xcrun simctl
 
 ```
--Install Application to Your simulator
+##Install Application to Your simulator
 Go to downloads folder, extract the application and just drag it to Your simulator
 
 - Run Maven command to download neccessery tools and dependencies:
