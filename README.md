@@ -58,7 +58,7 @@ xcrun simctl
 ## Install Application to Your simulator
 Go to downloads folder, extract the application and just drag it to Your simulator
 
-- Run Maven command to download neccessery tools and dependencies:
+- Run Maven command to install neccessery tools and dependencies:
 ```
 mvn clean install
 ```
