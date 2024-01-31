@@ -39,7 +39,6 @@ npm install -g appium
 ```
 - Install and configure Xcode WebDriverAgent
 
-
 - Run the project:
 Open the project in your IDE
 (folder that You created when clonning the project)
@@ -64,14 +63,15 @@ Go to downloads folder, extract the application and just drag it to Your simulat
 mvn clean install
 ```
 
+## Execute the tests 
 - Run  `testng.xml` in the project to execute the tests
-
 
 - After executing the tests, under `extent.xml` will be created test cases reports.
 - Also, under Screenshot folder will be created `screenshots` for invalid login
 
 
-##Contact information:
+
+## Contact information:
 Please feel free to contact me at manojlovic.nikola@yahoo.com if you encounter any difficulties running the project
 
 
