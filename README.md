@@ -14,7 +14,8 @@ This project is designed to enable automated testing of specific funcionalities 
 ## Installation steps and User instructions:
    - Create a new folder somewhere on your machine.
    - Open cmd/terminal and navigate to that folder.
-   - Clone the repository using the following command (copy the path from the GitHub repository, either using https or ssh):
+   - Clone the repository using the following command
+     (copy the path from the GitHub repository, either using https or ssh):
      ```
      git clone [repository_path]
      ```
