@@ -12,6 +12,10 @@ This project is designed to enable automated testing of specific funcionalities 
 - Apache Maven
 
 ## Installation steps and User instructions:
+
+   - Install TestNG plugin in Your Eclipse IDE:
+     Help -> Install new Software -> add -> location: https://testng.org/testng-eclipse-update-site/
+     
    - Create a new folder somewhere on your machine.
    - Open cmd/terminal and navigate to that folder.
    - Clone the repository using the following command (copy the path from the GitHub repository, either using https or ssh):
@@ -26,8 +30,7 @@ This project is designed to enable automated testing of specific funcionalities 
      ```
      brew install maven
      ```
-   - Install TestNG plugin in Your Eclipse IDE:
-     Help -> Install new Software -> add -> location: https://testng.org/testng-eclipse-update-site/
+
 
 ## Download the application:
 https://github.com/saucelabs/sample-app-mobile/releases
