@@ -6,7 +6,7 @@ This project is designed to enable automated testing of specific funcionalities 
    - Java JDK: Provided download link: (https://www.oracle.com/java/technologies/downloads/)
    (I recommend setting the "JAVA_HOME" environment variable to the path
    of the Java JDK installation (check with `echo $JAVA_HOME`))
-   - IDE
+   -Eclipse IDE
 - Xcode (WebDriverAgent and Simulator)
 - Appium
 - Apache Maven
