@@ -26,6 +26,9 @@ This project is designed to enable automated testing of specific funcionalities 
      ```
      brew install maven
      ```
+   - Install TestNG plugin in Your Eclipse IDE:
+     Help -> Install new Software -> add -> location: https://testng.org/testng-eclipse-update-site/
+
 ## Download the application:
 https://github.com/saucelabs/sample-app-mobile/releases
 - Download iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.zip file
