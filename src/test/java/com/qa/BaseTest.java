@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -60,7 +61,12 @@ public class BaseTest extends ExtentReportsDemo{
 			String propFileName = "config.properties";
 
 			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
-			props.load(inputStream);
+			if (inputStream != null) {
+			    props.load(inputStream);
+			} else {
+			    throw new FileNotFoundException("Property file '" + propFileName + "' not found in the classpath");
+			}
+
 
 			DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			desiredCapabilities.setCapability("platformName", platformName);

@@ -5,17 +5,51 @@
     <parameter name="platformName" value="iOS"/>
     <parameter name="deviceName" value="iPhone 11"/>
     <classes>
+      <class name="com.qa.tests.CartTests">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="enterFirstName"/>
+          <include name="enterPostalCode"/>
+          <include name="enterLastName"/>
+          <include name="clickCheckOut"/>
+          <include name="swipingToFinishBtn"/>
+          <include name="afterTest"/>
+          <include name="setUpExtentReports"/>
+          <include name="clickOnFinish"/>
+          <include name="clickCart"/>
+          <include name="reportTearDown"/>
+          <include name="tearDownExtentReports"/>
+          <include name="cont"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- com.qa.tests.CartTests -->
       <class name="com.qa.tests.ProductsTests">
         <methods>
           <include name="setUpExtentReports"/>
           <include name="afterTest"/>
+          <include name="tearDownExtentReports"/>
           <include name="beforeTest"/>
           <include name="addCart"/>
           <include name="reportTearDown"/>
+          <include name="pressBtn"/>
           <include name="reportSetup"/>
           <include name="swipe"/>
         </methods>
       </class> <!-- com.qa.tests.ProductsTests -->
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="invalidUserName"/>
+          <include name="beforeTest"/>
+          <include name="setUpExtentReports"/>
+          <include name="successfulLogin"/>
+          <include name="invalidPassword"/>
+          <include name="tearDownExtentReports"/>
+          <include name="reportTearDown"/>
+          <include name="reportSetup"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
