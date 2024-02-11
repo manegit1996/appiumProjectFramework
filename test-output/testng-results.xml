@@ -1,63 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="0" failed="0" skipped="14">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-11T08:49:00 PST" name="Suite" finished-at="2024-02-11T08:50:55 PST" duration-ms="115627">
+  <suite started-at="2024-02-11T09:33:15 PST" name="Suite" finished-at="2024-02-11T09:33:15 PST" duration-ms="92">
     <groups>
     </groups>
-    <test started-at="2024-02-11T08:49:00 PST" name="Test" finished-at="2024-02-11T08:50:55 PST" duration-ms="115627">
+    <test started-at="2024-02-11T09:33:15 PST" name="Test" finished-at="2024-02-11T09:33:15 PST" duration-ms="92">
       <class name="com.qa.tests.CartTests">
-        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:49:00 PST" name="setUpExtentReports" finished-at="2024-02-11T08:49:00 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="setUpExtentReports" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReports -->
-        <test-method signature="clickCart()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:19 PST" name="clickCart" finished-at="2024-02-11T08:50:20 PST" duration-ms="1145" status="PASS">
+        <test-method signature="clickCart()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="clickCart" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCart -->
-        <test-method signature="clickCheckOut()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:20 PST" name="clickCheckOut" finished-at="2024-02-11T08:50:25 PST" duration-ms="4689" status="PASS">
+        <test-method signature="clickCheckOut()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="clickCheckOut" finished-at="2024-02-11T09:33:15 PST" duration-ms="1" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCheckOut -->
-        <test-method signature="enterFirstName()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:25 PST" name="enterFirstName" finished-at="2024-02-11T08:50:30 PST" duration-ms="4395" status="PASS">
+        <test-method signature="enterFirstName()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="enterFirstName" finished-at="2024-02-11T09:33:15 PST" duration-ms="1" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFirstName -->
-        <test-method signature="enterLastName()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:30 PST" name="enterLastName" finished-at="2024-02-11T08:50:33 PST" duration-ms="3565" status="PASS">
+        <test-method signature="enterLastName()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="enterLastName" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterLastName -->
-        <test-method signature="enterPostalCode()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:33 PST" name="enterPostalCode" finished-at="2024-02-11T08:50:37 PST" duration-ms="3383" status="PASS">
+        <test-method signature="enterPostalCode()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="enterPostalCode" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPostalCode -->
-        <test-method signature="cont()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:37 PST" name="cont" finished-at="2024-02-11T08:50:42 PST" depends-on-methods="com.qa.tests.CartTests.enterFirstName, com.qa.tests.CartTests.enterPostalCode, com.qa.tests.CartTests.enterLastName" duration-ms="5410" status="PASS">
+        <test-method signature="cont()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="cont" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.CartTests.enterFirstName, com.qa.tests.CartTests.enterPostalCode, com.qa.tests.CartTests.enterLastName" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.CartTests.cont() on instance com.qa.tests.CartTests@1f81aa00 depends on not successfully finished methods 
+[com.qa.tests.CartTests.enterFirstName() on instance com.qa.tests.CartTests@1f81aa00
+com.qa.tests.CartTests.enterPostalCode() on instance com.qa.tests.CartTests@1f81aa00
+com.qa.tests.CartTests.enterLastName() on instance com.qa.tests.CartTests@1f81aa00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.CartTests.cont() on instance com.qa.tests.CartTests@1f81aa00 depends on not successfully finished methods 
+[com.qa.tests.CartTests.enterFirstName() on instance com.qa.tests.CartTests@1f81aa00
+com.qa.tests.CartTests.enterPostalCode() on instance com.qa.tests.CartTests@1f81aa00
+com.qa.tests.CartTests.enterLastName() on instance com.qa.tests.CartTests@1f81aa00]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cont -->
-        <test-method signature="swipingToFinishBtn()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:42 PST" name="swipingToFinishBtn" finished-at="2024-02-11T08:50:47 PST" depends-on-methods="com.qa.tests.CartTests.cont" duration-ms="5231" status="PASS">
+        <test-method signature="swipingToFinishBtn()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="swipingToFinishBtn" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.CartTests.cont" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.CartTests.swipingToFinishBtn() on instance com.qa.tests.CartTests@1f81aa00 depends on not successfully finished methods 
+[com.qa.tests.CartTests.cont() on instance com.qa.tests.CartTests@1f81aa00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.CartTests.swipingToFinishBtn() on instance com.qa.tests.CartTests@1f81aa00 depends on not successfully finished methods 
+[com.qa.tests.CartTests.cont() on instance com.qa.tests.CartTests@1f81aa00]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swipingToFinishBtn -->
-        <test-method signature="clickOnFinish()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:47 PST" name="clickOnFinish" finished-at="2024-02-11T08:50:52 PST" depends-on-methods="com.qa.tests.CartTests.swipingToFinishBtn" duration-ms="5017" status="PASS">
+        <test-method signature="clickOnFinish()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="clickOnFinish" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.CartTests.swipingToFinishBtn" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.CartTests.clickOnFinish() on instance com.qa.tests.CartTests@1f81aa00 depends on not successfully finished methods 
+[com.qa.tests.CartTests.swipingToFinishBtn() on instance com.qa.tests.CartTests@1f81aa00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.CartTests.clickOnFinish() on instance com.qa.tests.CartTests@1f81aa00 depends on not successfully finished methods 
+[com.qa.tests.CartTests.swipingToFinishBtn() on instance com.qa.tests.CartTests@1f81aa00]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnFinish -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T08:50:56 PST" name="tearDownExtentReports" finished-at="2024-02-11T08:50:56 PST" depends-on-methods="com.qa.tests.ProductsTests.tearDownExtentReports, com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.CartTests@1f81aa00]" started-at="2024-02-11T09:33:15 PST" name="tearDownExtentReports" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.ProductsTests.tearDownExtentReports, com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
       </class> <!-- com.qa.tests.CartTests -->
       <class name="com.qa.tests.LoginTests">
-        <test-method is-config="true" signature="reportSetup()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:48:59 PST" name="reportSetup" finished-at="2024-02-11T08:49:00 PST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="reportSetup" finished-at="2024-02-11T09:33:15 PST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:00 PST" name="setUpExtentReports" finished-at="2024-02-11T08:49:00 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="setUpExtentReports" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReports -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:00 PST" name="beforeTest" finished-at="2024-02-11T08:49:14 PST" duration-ms="14538" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="beforeTest" finished-at="2024-02-11T09:33:15 PST" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -70,85 +334,282 @@
               </value>
             </param>
           </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:14 PST" name="beforeMethod" finished-at="2024-02-11T08:49:15 PST" duration-ms="927" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.LoginTests.invalidUserName() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="beforeMethod" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:15 PST" name="invalidUserName" finished-at="2024-02-11T08:49:36 PST" duration-ms="21117" status="PASS">
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="invalidUserName" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserName -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:36 PST" name="beforeMethod" finished-at="2024-02-11T08:49:36 PST" duration-ms="179" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.LoginTests.invalidPassword() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:36 PST" name="invalidPassword" finished-at="2024-02-11T08:49:54 PST" depends-on-methods="com.qa.tests.LoginTests.invalidUserName" duration-ms="17181" status="PASS">
+        <test-method signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="invalidPassword" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.LoginTests.invalidUserName" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.LoginTests.invalidPassword() on instance com.qa.tests.LoginTests@7b7fdc8 depends on not successfully finished methods 
+[com.qa.tests.LoginTests.invalidUserName() on instance com.qa.tests.LoginTests@7b7fdc8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.LoginTests.invalidPassword() on instance com.qa.tests.LoginTests@7b7fdc8 depends on not successfully finished methods 
+[com.qa.tests.LoginTests.invalidUserName() on instance com.qa.tests.LoginTests@7b7fdc8]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:54 PST" name="beforeMethod" finished-at="2024-02-11T08:49:54 PST" duration-ms="130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.LoginTests.successfulLogin() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:49:54 PST" name="successfulLogin" finished-at="2024-02-11T08:50:07 PST" depends-on-methods="com.qa.tests.LoginTests.invalidUserName, com.qa.tests.LoginTests.invalidPassword" duration-ms="13220" status="PASS">
+        <test-method signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="successfulLogin" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.LoginTests.invalidUserName, com.qa.tests.LoginTests.invalidPassword" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.LoginTests.successfulLogin() on instance com.qa.tests.LoginTests@7b7fdc8 depends on not successfully finished methods 
+[com.qa.tests.LoginTests.invalidUserName() on instance com.qa.tests.LoginTests@7b7fdc8
+com.qa.tests.LoginTests.invalidPassword() on instance com.qa.tests.LoginTests@7b7fdc8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.LoginTests.successfulLogin() on instance com.qa.tests.LoginTests@7b7fdc8 depends on not successfully finished methods 
+[com.qa.tests.LoginTests.invalidUserName() on instance com.qa.tests.LoginTests@7b7fdc8
+com.qa.tests.LoginTests.invalidPassword() on instance com.qa.tests.LoginTests@7b7fdc8]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLogin -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:50:52 PST" name="afterTest" finished-at="2024-02-11T08:50:55 PST" duration-ms="3062" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="afterTest" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:50:55 PST" name="tearDownExtentReports" finished-at="2024-02-11T08:50:56 PST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="tearDownExtentReports" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
-        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T08:50:56 PST" name="reportTearDown" finished-at="2024-02-11T08:50:56 PST" depends-on-methods="com.qa.tests.CartTests.tearDownExtentReports, com.qa.tests.ProductsTests.tearDownExtentReports, com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="37" status="PASS">
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:com.qa.tests.LoginTests@7b7fdc8]" started-at="2024-02-11T09:33:15 PST" name="reportTearDown" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.CartTests.tearDownExtentReports, com.qa.tests.ProductsTests.tearDownExtentReports, com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTearDown -->
       </class> <!-- com.qa.tests.LoginTests -->
       <class name="com.qa.tests.ProductsTests">
-        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T08:49:00 PST" name="setUpExtentReports" finished-at="2024-02-11T08:49:00 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T09:33:15 PST" name="setUpExtentReports" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="reports.ExtentReportsDemo.reportSetup" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReports -->
-        <test-method signature="pressBtn()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T08:50:07 PST" name="pressBtn" finished-at="2024-02-11T08:50:11 PST" duration-ms="3619" status="PASS">
+        <test-method signature="pressBtn()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T09:33:15 PST" name="pressBtn" finished-at="2024-02-11T09:33:15 PST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Property file 'src/test/resources/config.properties' not found in the classpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Property file 'src/test/resources/config.properties' not found in the classpath
+at com.qa.BaseTest.beforeTest(BaseTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pressBtn -->
-        <test-method signature="swipe()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T08:50:11 PST" name="swipe" finished-at="2024-02-11T08:50:16 PST" depends-on-methods="com.qa.tests.ProductsTests.pressBtn" duration-ms="5741" status="PASS">
+        <test-method signature="swipe()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T09:33:15 PST" name="swipe" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.ProductsTests.pressBtn" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.ProductsTests.swipe() on instance com.qa.tests.ProductsTests@43599640 depends on not successfully finished methods 
+[com.qa.tests.ProductsTests.pressBtn() on instance com.qa.tests.ProductsTests@43599640]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.ProductsTests.swipe() on instance com.qa.tests.ProductsTests@43599640 depends on not successfully finished methods 
+[com.qa.tests.ProductsTests.pressBtn() on instance com.qa.tests.ProductsTests@43599640]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- swipe -->
-        <test-method signature="addCart()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T08:50:16 PST" name="addCart" finished-at="2024-02-11T08:50:19 PST" depends-on-methods="com.qa.tests.ProductsTests.pressBtn, com.qa.tests.ProductsTests.swipe" duration-ms="2996" status="PASS">
+        <test-method signature="addCart()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T09:33:15 PST" name="addCart" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.ProductsTests.pressBtn, com.qa.tests.ProductsTests.swipe" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.qa.tests.ProductsTests.addCart() on instance com.qa.tests.ProductsTests@43599640 depends on not successfully finished methods 
+[com.qa.tests.ProductsTests.pressBtn() on instance com.qa.tests.ProductsTests@43599640
+com.qa.tests.ProductsTests.swipe() on instance com.qa.tests.ProductsTests@43599640]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.qa.tests.ProductsTests.addCart() on instance com.qa.tests.ProductsTests@43599640 depends on not successfully finished methods 
+[com.qa.tests.ProductsTests.pressBtn() on instance com.qa.tests.ProductsTests@43599640
+com.qa.tests.ProductsTests.swipe() on instance com.qa.tests.ProductsTests@43599640]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCart -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T08:50:56 PST" name="tearDownExtentReports" finished-at="2024-02-11T08:50:56 PST" depends-on-methods="com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.qa.tests.ProductsTests@43599640]" started-at="2024-02-11T09:33:15 PST" name="tearDownExtentReports" finished-at="2024-02-11T09:33:15 PST" depends-on-methods="com.qa.tests.LoginTests.tearDownExtentReports" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->

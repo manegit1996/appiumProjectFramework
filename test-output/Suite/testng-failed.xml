@@ -31,9 +31,9 @@
           <include name="beforeTest"/>
           <include name="addCart"/>
           <include name="reportTearDown"/>
-          <include name="pressBtn"/>
-          <include name="reportSetup"/>
           <include name="swipe"/>
+          <include name="reportSetup"/>
+          <include name="pressBtn"/>
         </methods>
       </class> <!-- com.qa.tests.ProductsTests -->
       <class name="com.qa.tests.LoginTests">
@@ -44,8 +44,8 @@
           <include name="beforeTest"/>
           <include name="setUpExtentReports"/>
           <include name="successfulLogin"/>
-          <include name="invalidPassword"/>
           <include name="tearDownExtentReports"/>
+          <include name="invalidPassword"/>
           <include name="reportTearDown"/>
           <include name="reportSetup"/>
         </methods>

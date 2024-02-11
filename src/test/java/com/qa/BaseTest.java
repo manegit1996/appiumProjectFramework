@@ -61,6 +61,7 @@ public class BaseTest extends ExtentReportsDemo{
 			String propFileName = "config.properties";
 
 			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+			Thread.sleep(2000);
 			if (inputStream != null) {
 			    props.load(inputStream);
 			} else {
