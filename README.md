@@ -40,13 +40,9 @@ npm install -g appium
 ```
 - Install and configure Xcode WebDriverAgent
 
-- Run the project:
-Open the project in your IDE
-(folder that You created when clonning the project)
-
 - Run appium
 
-- Build Xcode WebDriverAgent
+- Build Xcode WebDriverAgentRunner
 
 - Run Simulator iPhone 11 from Xcode
 (Xcode -> Open Developer Tool -> Simulator)
