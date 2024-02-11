@@ -16,12 +16,7 @@ This project is designed to enable automated testing of specific funcionalities 
    - Install TestNG plugin in Your Eclipse IDE:
      Help -> Install new Software -> add -> location: https://testng.org/testng-eclipse-update-site/
      
-   - Create a new folder somewhere on your machine.
-   - Open cmd/terminal and navigate to that folder.
-   - Clone the repository using the following command (copy the path from the GitHub repository, either using https or ssh):
-     ```
-     git clone [repository_path]
-     ```
+
    - Open a new terminal and install Homebrew on iOS (if You don't have):
      ```
      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -61,13 +56,22 @@ Check your udid for iPhone 11. Run command
 xcrun simctl
 
 ```
+Note: if you don't have iPhone11 simulator, choose iPhone 15 and change in project in BaseTest.java `udid` of simulator.
+Please also change `value` in testng.xml file from iPhone 11 to iPhone 15
+
 ## Install Application to Your simulator
 Go to downloads folder, extract the application and just drag it to Your simulator
 
-- Run Maven command to install neccessery tools and dependencies:
-```
-mvn clean install
-```
+## Steps for opening the project from github through eclipse IDE
+- Run Eclipse IDE
+- Right click import..
+- Git -> Projects from Git(with smart import)
+- Clone URI
+- Copy HTTPS repository path
+- Paste the path under URI
+- Choose local destination directory
+- Right click on imported project -> maven -> Update project..
+
 
 ## Execute the tests 
 - Run  `testng.xml` in the project to execute the tests
