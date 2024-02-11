@@ -3,19 +3,19 @@ This project is designed to enable automated testing of specific funcionalities 
 
 ## Necessary tools to have on your machine for starting the project:
    - git
+   - node
    - Java JDK: Provided download link: (https://www.oracle.com/java/technologies/downloads/)
    (I recommend setting the "JAVA_HOME" environment variable to the path
    of the Java JDK installation (check with `echo $JAVA_HOME`))
    -Eclipse IDE
 - Xcode (WebDriverAgent and Simulator)
 - Appium
-- Apache Maven
+- Apache Maven (I recommend setting the "MAVEN_HOME" enviroment variable to the path of the Maven installation)
 
 ## Installation steps and User instructions:
 
    - Install TestNG plugin in Your Eclipse IDE:
      Help -> Install new Software -> add -> location: https://testng.org/testng-eclipse-update-site/
-     
 
    - Open a new terminal and install Homebrew on iOS (if You don't have):
      ```
@@ -52,8 +52,8 @@ Check your udid for iPhone 11. Run command
 xcrun simctl
 
 ```
-Note: if you don't have iPhone11 simulator, choose iPhone 15 and change in project in BaseTest.java `udid` of simulator.
-Please also change `value` in testng.xml file from iPhone 11 to iPhone 15
+Note: if you don't have iPhone11 simulator, choose iPhone 15 and change in project in **BaseTest.java** udid of simulator.
+Please also change value in **testng.xml** file from iPhone 11 to iPhone 15
 
 ## Install Application to Your simulator
 Go to downloads folder, extract the application and just drag it to Your simulator
